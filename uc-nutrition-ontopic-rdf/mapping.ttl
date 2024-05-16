@@ -4,7 +4,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix voc:  <http://vocabulary.example.org/> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-
 [ <http://www.w3.org/ns/r2rml#logicalTable>
           [ <http://www.w3.org/ns/r2rml#tableName>
                     "`lenses`.`uc_nutrition`.`food_group`" ] ;
