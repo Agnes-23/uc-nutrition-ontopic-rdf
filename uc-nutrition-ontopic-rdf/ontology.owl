@@ -1,0 +1,86 @@
+@prefix data: <http://mydata.example.org/> .
+@prefix geo:  <http://www.opengis.net/ont/geosparql#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix voc:  <http://vocabulary.example.org/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+voc:fao_classification
+        rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:po_id  rdf:type  rdf:Property .
+
+voc:Traits  rdf:type  rdfs:Class .
+
+voc:Trait_descriptor  rdf:type  rdfs:Class .
+
+voc:soil_type  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:Food_group  rdf:type  rdfs:Class .
+
+voc:soil_types  rdf:type  <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+voc:descriptor_name  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:soil_number  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:foodon_id  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:cdno_id  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:location  rdf:type  <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+voc:crops  rdf:type  <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+voc:crop_common_name  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:crop_part_name  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:traits  rdf:type  <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+voc:po_term  rdf:type  rdf:Property .
+
+voc:ontology_id  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:trait_descriptor  rdf:type  rdf:Property .
+
+voc:fao_class  rdf:type  <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+voc:crop_parts  rdf:type  <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+voc:Crop_part  rdf:type  rdfs:Class .
+
+voc:Location  rdf:type  rdfs:Class .
+
+voc:Crop_sample  rdf:type  rdfs:Class .
+
+voc:Siol_sample  rdf:type  rdfs:Class .
+
+voc:chebi_id  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:ncbi_taxon_id  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:Trait_scores  rdf:type  rdfs:Class .
+
+voc:trait_name  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:scientific_name  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:x_coordinate  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:Soil_sample  rdf:type  rdfs:Class .
+
+voc:Fao_classification
+        rdf:type  rdfs:Class .
+
+voc:crop_part  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:food_group  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:y_coordinate  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:Soil_type  rdf:type  rdfs:Class .
+
+voc:is_a  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+voc:trait_score  rdf:type  <http://www.w3.org/2002/07/owl#DatatypeProperty> .

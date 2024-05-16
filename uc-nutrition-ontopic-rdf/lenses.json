@@ -1,0 +1,326 @@
+{
+	"relations": [
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`crop_part`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`crop_part`"
+				]
+			],
+			"baseRelation": [
+				"`crop_part`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`location`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`location`"
+				]
+			],
+			"baseRelation": [
+				"`location`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`crop_sample`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`crop_sample`"
+				]
+			],
+			"baseRelation": [
+				"`crop_sample`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": [
+					"\"MyUnknownColumn\""
+				]
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`fao_class`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`fao_class`"
+				]
+			],
+			"baseRelation": [
+				"`fao_class`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`soil_sample`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`soil_sample`"
+				]
+			],
+			"baseRelation": [
+				"`soil_sample`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`food_group`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`food_group`"
+				]
+			],
+			"baseRelation": [
+				"`food_group`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`soil_type`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`soil_type`"
+				]
+			],
+			"baseRelation": [
+				"`soil_type`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`traits`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`traits`"
+				]
+			],
+			"baseRelation": [
+				"`traits`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`trait_score`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`trait_score`"
+				]
+			],
+			"baseRelation": [
+				"`trait_score`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		},
+		{
+			"name": [
+				"`lenses`",
+				"`uc_nutrition`",
+				"`trait_descriptor`"
+			],
+			"otherNames": [
+				[
+					"`uc_nutrition`",
+					"`trait_descriptor`"
+				]
+			],
+			"baseRelation": [
+				"`trait_descriptor`"
+			],
+			"filterExpression": null,
+			"columns": {
+				"added": [],
+				"hidden": []
+			},
+			"uniqueConstraints": {
+				"added": []
+			},
+			"otherFunctionalDependencies": {
+				"added": []
+			},
+			"foreignKeys": {
+				"added": []
+			},
+			"nonNullConstraints": null,
+			"type": "BasicViewDefinition"
+		}
+	]
+}

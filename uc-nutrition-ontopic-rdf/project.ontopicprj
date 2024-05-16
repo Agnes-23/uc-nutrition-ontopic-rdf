@@ -1,0 +1,1862 @@
+{
+	"prefixes": {
+		"voc": "http://vocabulary.example.org/",
+		"data": "http://mydata.example.org/",
+		"geo": "http://www.opengis.net/ont/geosparql#",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"lenses": {
+		"relations": [
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"crop_part\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"crop_part\""
+					]
+				],
+				"baseRelation": [
+					"\"crop_part\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"location\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"location\""
+					]
+				],
+				"baseRelation": [
+					"\"location\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"crop_sample\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"crop_sample\""
+					]
+				],
+				"baseRelation": [
+					"\"crop_sample\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": [
+						"\"MyUnknownColumn\""
+					]
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"fao_class\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"fao_class\""
+					]
+				],
+				"baseRelation": [
+					"\"fao_class\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"soil_sample\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"soil_sample\""
+					]
+				],
+				"baseRelation": [
+					"\"soil_sample\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"food_group\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"food_group\""
+					]
+				],
+				"baseRelation": [
+					"\"food_group\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"soil_type\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"soil_type\""
+					]
+				],
+				"baseRelation": [
+					"\"soil_type\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"traits\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"traits\""
+					]
+				],
+				"baseRelation": [
+					"\"traits\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"trait_score\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"trait_score\""
+					]
+				],
+				"baseRelation": [
+					"\"trait_score\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			},
+			{
+				"name": [
+					"\"lenses\"",
+					"\"uc_nutrition\"",
+					"\"trait_descriptor\""
+				],
+				"otherNames": [
+					[
+						"\"uc_nutrition\"",
+						"\"trait_descriptor\""
+					]
+				],
+				"baseRelation": [
+					"\"trait_descriptor\""
+				],
+				"columns": {
+					"added": [],
+					"hidden": []
+				},
+				"uniqueConstraints": {
+					"added": []
+				},
+				"otherFunctionalDependencies": {
+					"added": []
+				},
+				"foreignKeys": {
+					"added": []
+				},
+				"type": "OntopicBasicLens"
+			}
+		]
+	},
+	"mapping": {
+		"entries": [
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "4343cd30-fc27-4912-ab4e-d763f3fb6a3f",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_part/{crop_part_id}",
+					"bindings": {
+						"crop_part_id": "`crop_part_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Crop_part"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_part\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "2906d968-492b-4749-99e3-8dc2ef751490",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_part/{crop_part_id}",
+					"bindings": {
+						"crop_part_id": "`crop_part_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:crop_part"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`crop_part`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_part\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "ccdae18b-4901-465f-afe1-dce8e62f0d4a",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_part/{crop_part_id}",
+					"bindings": {
+						"crop_part_id": "`crop_part_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:po_id"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`PO_id`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_part\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "f8960864-cc72-4b4d-a110-2890144af161",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_sample/{crop_sample_id}",
+					"bindings": {
+						"crop_sample_id": "`crop_sample_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Crop_sample"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_sample\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "dba93315-b375-447a-bd48-3a886efd9038",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_sample/{crop_sample_id}",
+					"bindings": {
+						"crop_sample_id": "`crop_sample_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:crop_parts"
+				},
+				"object": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_part/{crop_part_id}",
+					"bindings": {
+						"crop_part_id": "`crop_part__id`"
+					}
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_sample\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "b7db87d9-35cb-49f3-a64e-c562ab344f4c",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_sample/{crop_sample_id}",
+					"bindings": {
+						"crop_sample_id": "`crop_sample_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:crop_common_name"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`crop_common_name`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_sample\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "92b147a1-28a4-4f02-8fd3-92e268ad0f07",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_sample/{crop_sample_id}",
+					"bindings": {
+						"crop_sample_id": "`crop_sample_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:scientific_name"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`scientific_name`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_sample\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "d49de30c-6840-4fe8-85f3-d88335fba0b6",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_sample/{crop_sample_id}",
+					"bindings": {
+						"crop_sample_id": "`crop_sample_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:ncbi_taxon_id"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`NCBI_Taxon_ID`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_sample\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "f26612b5-1789-46fb-9e3a-79a5951c9724",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:location/{location_id}",
+					"bindings": {
+						"location_id": "`location_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Location"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"location\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "f1e7aac6-5b1d-47ae-a1aa-dabf31b9a659",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_sample/{crop_sample_id}",
+					"bindings": {
+						"crop_sample_id": "`crop_sample_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:location"
+				},
+				"object": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:location/{location_id}",
+					"bindings": {
+						"location_id": "`location_id`"
+					}
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_sample\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "f94f3b9f-401c-4ccf-abbb-b9c10212d4d3",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:location/{location_id}",
+					"bindings": {
+						"location_id": "`location_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:x_coordinate"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`X_coord`",
+					"datatype": "xsd:integer"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"location\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "86b0e204-6e5f-4677-b65b-f28ff4b66b75",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:location/{location_id}",
+					"bindings": {
+						"location_id": "`location_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:y_coordinate"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`X_coord`",
+					"datatype": "xsd:integer"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"location\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "cc79f679-0a72-4513-a6a1-d9b08087be9b",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:fao_class/{fao_class_id}",
+					"bindings": {
+						"fao_class_id": "`fao_class_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Fao_classification"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"fao_class\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "8fd0f59c-e22c-449f-b53f-5f812d309ce6",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:fao_class/{fao_class_id}",
+					"bindings": {
+						"fao_class_id": "`fao_class_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:fao_classification"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`fao_class`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"fao_class\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "daa2c276-8e4f-4f8e-86fe-6e56c7394bb4",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:crop_sample/{crop_sample_id}",
+					"bindings": {
+						"crop_sample_id": "`crop_sample_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:fao_class"
+				},
+				"object": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:fao_class/{fao_class_id}",
+					"bindings": {
+						"fao_class_id": "`fao_class_id`"
+					}
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"crop_sample\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "6f86b2cb-1916-4006-af47-d16c6136531f",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:soil_sample/{soil_sample_id}",
+					"bindings": {
+						"soil_sample_id": "`soil_sample_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Soil_sample"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"soil_sample\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "4464ac77-f6f3-490e-b857-ee19dc02cda8",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:soil_sample/{soil_sample_id}",
+					"bindings": {
+						"soil_sample_id": "`soil_sample_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:soil_number"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`soil_number`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"soil_sample\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "15fc5803-9447-46a0-bb75-db6fb2e27df5",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:soil_sample/{soil_sample_id}",
+					"bindings": {
+						"soil_sample_id": "`soil_sample_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:fao_class"
+				},
+				"object": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:fao_class/{fao_class_id}",
+					"bindings": {
+						"fao_class_id": "`fao_soil_classification_id`"
+					}
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"soil_sample\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "1f798341-78bd-433f-b1b5-fa498998b0ee",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "food_group/{food_group_id}",
+					"bindings": {
+						"food_group_id": "`food_group_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Food_group"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"food_group\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "ff0d870c-6eee-4fa6-a11b-87c26592bf88",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "food_group/{food_group_id}",
+					"bindings": {
+						"food_group_id": "`food_group_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:food_group"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`food_group`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"food_group\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "9b962ff7-7b21-4d2e-b5c0-24958bf54d68",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "food_group/{food_group_id}",
+					"bindings": {
+						"food_group_id": "`food_group_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:foodon_id"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`FOODON_id`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"food_group\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "aaa7c5a0-6616-4a62-807d-e778bcfa912f",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:soil_type/{soil_type_id}",
+					"bindings": {
+						"soil_type_id": "`soil_type_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Soil_type"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"soil_type\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "5c748c06-8797-4c3b-8c47-b6a5061544e1",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:soil_type/{soil_type_id}",
+					"bindings": {
+						"soil_type_id": "`soil_type_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:soil_type"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`soil_type`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"soil_type\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "cb555749-7a8c-44c1-b571-372ac300a388",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:location/{location_id}",
+					"bindings": {
+						"location_id": "`location_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:soil_types"
+				},
+				"object": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:soil_type/{soil_type_id}",
+					"bindings": {
+						"soil_type_id": "`soil_type_id`"
+					}
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"location\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "2070c59d-4d01-4b8e-b78e-19cdeb6110de",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:traits/{trait_id}",
+					"bindings": {
+						"trait_id": "`trait_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Traits"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"traits\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "93b8b624-8787-40a2-8031-225f59e09466",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:traits/{trait_id}",
+					"bindings": {
+						"trait_id": "`trait_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:trait_name"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`trait_name`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"traits\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "cb5d50be-ee9a-4dc2-b991-2e545bad5a42",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:traits/{trait_id}",
+					"bindings": {
+						"trait_id": "`trait_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:ontology_id"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`ontology_id`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"traits\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "5122d933-7c81-4201-912e-d5c0f287f9d6",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:traits/{trait_id}",
+					"bindings": {
+						"trait_id": "`trait_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:chebi_id"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`CHEBI_id`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"traits\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "c08729ed-3b15-4e0c-b3d3-cb155714f0e9",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:traits/{trait_id}",
+					"bindings": {
+						"trait_id": "`trait_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:cdno_id"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`CDNO_id`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"traits\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "30d8f294-abf9-4cfd-b31d-90b0a3551827",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:trait_score/{scoring_unit_id}",
+					"bindings": {
+						"scoring_unit_id": "`scoring_unit_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Trait_scores"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"trait_score\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "ff443f65-8ae9-4981-be02-8d0eb913aeef",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:trait_score/{scoring_unit_id}",
+					"bindings": {
+						"scoring_unit_id": "`scoring_unit_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:trait_score"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`trait_score`",
+					"datatype": "xsd:double"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"trait_score\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "c14f598a-3214-4dfb-b455-9c4c4cbf7f69",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:trait_score/{scoring_unit_id}",
+					"bindings": {
+						"scoring_unit_id": "`scoring_unit_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:location"
+				},
+				"object": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:location/{location_id}",
+					"bindings": {
+						"location_id": "`location_id`"
+					}
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"trait_score\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "9e87c0eb-cfa8-44cf-81fd-e94dd7ac6a8e",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:trait_score/{scoring_unit_id}",
+					"bindings": {
+						"scoring_unit_id": "`scoring_unit_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:traits"
+				},
+				"object": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:traits/{trait_id}",
+					"bindings": {
+						"trait_id": "`traits_id`"
+					}
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"trait_score\""
+					]
+				}
+			},
+			{
+				"isIncludedInDefaultGraph": true,
+				"type": "ClassEntry",
+				"id": "a332b020-77d2-4617-b7b6-805b97f8fa41",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:trait_descriptor/{descriptor_id}",
+					"bindings": {
+						"descriptor_id": "`descriptor_id`"
+					}
+				},
+				"class": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:Trait_descriptor"
+				},
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"trait_descriptor\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "4c063a48-c7b9-4bab-8553-4679bea1f57a",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:trait_descriptor/{descriptor_id}",
+					"bindings": {
+						"descriptor_id": "`descriptor_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:descriptor_name"
+				},
+				"object": {
+					"termType": "literal",
+					"type": "LiteralColumn",
+					"column": "`descriptor_name`",
+					"datatype": "xsd:string"
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"trait_descriptor\""
+					]
+				}
+			},
+			{
+				"type": "PredicateObjectEntry",
+				"id": "b56642f5-2a31-4ed9-8c8d-893a38e96f15",
+				"subject": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:trait_score/{scoring_unit_id}",
+					"bindings": {
+						"scoring_unit_id": "`scoring_unit_id`"
+					}
+				},
+				"predicate": {
+					"termType": "iri",
+					"type": "IriOrBNodeConstant",
+					"value": "voc:trait_descriptor"
+				},
+				"object": {
+					"termType": "iri",
+					"type": "IriOrBNodeTemplate",
+					"template": "data:trait_descriptor/{descriptor_id}",
+					"bindings": {
+						"descriptor_id": "`trait_descriptor_id`"
+					}
+				},
+				"isIncludedInDefaultGraph": true,
+				"graphs": [],
+				"source": {
+					"type": "RelationSource",
+					"relationName": [
+						"\"lenses\"",
+						"\"uc_nutrition\"",
+						"\"trait_score\""
+					]
+				}
+			}
+		],
+		"templates": [
+			{
+				"template": "data:crop_part/{crop_part_id}",
+				"termType": "iri",
+				"bindings": {
+					"crop_part_id": ""
+				}
+			},
+			{
+				"template": "data:crop_sample/{crop_sample_id}",
+				"termType": "iri",
+				"bindings": {
+					"crop_sample_id": ""
+				}
+			},
+			{
+				"template": "data:location/{location_id}",
+				"termType": "iri",
+				"bindings": {
+					"location_id": ""
+				}
+			},
+			{
+				"template": "data:fao_class/{fao_class_id}",
+				"termType": "iri",
+				"bindings": {
+					"fao_class_id": ""
+				}
+			},
+			{
+				"template": "data:soil_sample/{soil_sample_id}",
+				"termType": "iri",
+				"bindings": {
+					"soil_sample_id": ""
+				}
+			},
+			{
+				"template": "food_group/{food_group_id}",
+				"termType": "iri",
+				"bindings": {
+					"food_group_id": ""
+				}
+			},
+			{
+				"template": "data:soil_type/{soil_type_id}",
+				"termType": "iri",
+				"bindings": {
+					"soil_type_id": ""
+				}
+			},
+			{
+				"template": "data:traits/{trait_id}",
+				"termType": "iri",
+				"bindings": {
+					"trait_id": ""
+				}
+			},
+			{
+				"template": "data:trait_score/{scoring_unit_id}",
+				"termType": "iri",
+				"bindings": {
+					"scoring_unit_id": ""
+				}
+			},
+			{
+				"template": "data:trait_descriptor/{descriptor_id}",
+				"termType": "iri",
+				"bindings": {
+					"descriptor_id": ""
+				}
+			}
+		],
+		"graphs": []
+	},
+	"dataModel": {
+		"classes": [
+			{
+				"id": "voc:Crop_part",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Crop_sample",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Location",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Fao_classification",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Siol_sample",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Soil_sample",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Food_group",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Soil_type",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Traits",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Trait_scores",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			},
+			{
+				"id": "voc:Trait_descriptor",
+				"subClassOf": [],
+				"labels": [],
+				"descriptions": []
+			}
+		],
+		"properties": [
+			{
+				"id": "voc:crop_part",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:po_term",
+				"subPropertyOf": [],
+				"inverses": null,
+				"domains": null,
+				"labels": [],
+				"descriptions": [],
+				"type": "Unspecified"
+			},
+			{
+				"id": "voc:po_id",
+				"subPropertyOf": [],
+				"inverses": null,
+				"domains": null,
+				"labels": [],
+				"descriptions": [],
+				"type": "Unspecified"
+			},
+			{
+				"id": "voc:is_a",
+				"subPropertyOf": [],
+				"domains": null,
+				"ranges": null,
+				"labels": [],
+				"descriptions": [],
+				"type": "DataProperty"
+			},
+			{
+				"id": "voc:crop_part_name",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:crops",
+				"type": "ObjectProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:crop_parts",
+				"type": "ObjectProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:crop_common_name",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:scientific_name",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:ncbi_taxon_id",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:location",
+				"type": "ObjectProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:x_coordinate",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:y_coordinate",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:fao_classification",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:fao_class",
+				"type": "ObjectProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:soil_number",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:food_group",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:foodon_id",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:soil_type",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:soil_types",
+				"type": "ObjectProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:trait_name",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:ontology_id",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:chebi_id",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:cdno_id",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:trait_score",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:traits",
+				"type": "ObjectProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:descriptor_name",
+				"type": "DataProperty",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			},
+			{
+				"id": "voc:trait_descriptor",
+				"type": "Unspecified",
+				"subPropertyOf": [],
+				"range": [],
+				"domain": [],
+				"descriptions": [],
+				"labels": []
+			}
+		]
+	},
+	"version": 1
+}
